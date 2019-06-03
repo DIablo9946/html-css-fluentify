@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  /* height: 8000px; */
+}
+
+header {
+  width: 100%;
+  height: 500px;
+  background-color: blue;
+}
+
+#first, #second, #third, #fourth, footer {
+  width: 100%;
+}
+
+.firstel {
+  height: 150px;
+  background-color: gray;
+}
+
+.secondel, .thirdel {
+  height: 500px;
+  background-color: yellow;
+}
+
+.firstelm {
+  height: 150px;
+  background-color: gray;
+}
+
+.secondelm {
+  height: 400px;
+  background-color: blue;
+}
+
+.firstelem {
+  width: 100%;
+  height: 500px;
+  background-color: pink;
+}
+
+.firstelement {
+  height: 450px;
+  background-color: blue;
+}
+
+.secondelement {
+  height: 450px;
+  background-color: purple;
+}
+
+.sup {
+  height: 150px;
+  background-color: blue;
+}
+
+.inf {
+  height: 450px;
+  background-color: red;
+}
