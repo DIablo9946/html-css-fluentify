@@ -6,14 +6,50 @@
 
 #container {
   width: 100%;
-  /* height: 8000px; */
+
 }
+
+/* Mi occupo del header prima */
 
 header {
   width: 100%;
   height: 500px;
   background-color: blue;
 }
+
+.upperhead::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.upperhead {
+  width: 100%;
+  height: 50px;
+}
+
+.upper {
+  float: left;
+}
+
+.left {
+  margin-left: 20%;
+}
+
+.upperhead h1, .upperhead ul {
+  float: left;
+}
+
+.upperhead h1, .upperhead li {
+  display: inline-block;
+}
+
+.upperhead li {
+  top: 25px;
+
+}
+
+/* Stabilisco temporaneamente dei aggiustamenti visivi */
 
 #first, #second, #third, #fourth, footer {
   width: 100%;
@@ -63,4 +99,68 @@ header {
 .inf {
   height: 450px;
   background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#chat {
+  position: fixed;
+  top: 90%;
+  left: 90%;
 }
